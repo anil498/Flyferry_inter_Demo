@@ -1,0 +1,2 @@
+rootProject.name = "Flyferry_inter_Demo"
+include ':app'

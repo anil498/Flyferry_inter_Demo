@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:showIn="navigation_view">
+
+
+<group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_nav_icon"
+            android:icon="@drawable/ic_home_foreground"
+            android:orderInCategory="100"
+            android:title="Home"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/posts_nav_icon"
+            android:icon="@drawable/ic_posts"
+            android:orderInCategory="100"
+            android:title="Posts"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/friend_nav_icon"
+            android:icon="@drawable/ic_friend"
+            android:orderInCategory="100"
+            android:title="Friends"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/logout_nav_icon"
+            android:icon="@drawable/ic_logout"
+            android:orderInCategory="100"
+            android:title="LogOut"
+            app:showAsAction="always" />
+
+
+</group>
+</menu>
